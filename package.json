@@ -1,0 +1,26 @@
+{
+  "name": "frontend-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css",
+    "watch": "watch 'npm run build' .tailwind.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tailwindtoolbox/Hero-Product.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tailwindtoolbox/Hero-Product/issues"
+  },
+  "homepage": "https://github.com/tailwindtoolbox/Hero-Product#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.4"
+  }
+}

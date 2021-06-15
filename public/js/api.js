@@ -1,0 +1,1 @@
+fetch('http://13.229.119.71:8081/api/pegawai/?search=amalia').then(res => res.json()).then(data => console.log(data));
