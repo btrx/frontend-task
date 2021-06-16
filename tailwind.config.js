@@ -57,6 +57,7 @@ module.exports = {
         'mulish-normal': ['Mulish']
       },
       fontSize: {
+        '11px': '0.6875rem',
         '12px': '0.75rem',
         '14px': '0.875rem',
         '15px': '0.9375rem'
@@ -78,11 +79,16 @@ module.exports = {
         3.75: '0.9375rem',
         3.85: '0.96875rem',
         4: '1rem',
+        4.5: '1.0625rem',
+        4.75: '1.125rem',
         5: '1.25rem',
+        5.5: '1.3125rem',
         6: '1.5rem',
         7: '1.75rem',
+        7.5:'1.8125rem',
         8: '2rem',
         9: '2.25rem',
+        9.5: '2.3125rem',
         10: '2.5rem',
         11: '2.75rem',
         12: '3rem',
@@ -106,6 +112,11 @@ module.exports = {
       },
       borderWidth:  {
         '0.5': '0.03125rem'
+      },
+      Keyframes: {
+        'arrow-spin': {
+          '90': { transform: 'rotate(90deg)'},
+        }
       }
     },
   },

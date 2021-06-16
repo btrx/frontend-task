@@ -1,121 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/frontend-task/public/build/tailwind.css">
-    <script src="../public/js/api.js"></script>
-    <title>Data Diri</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/frontend-task/public/build/tailwind.css">
+  <script src="../public/js/script.js"></script>
+  <title>Data Diri</title>
 </head>
+
 <body>
-    <nav class="flex items-center justify-between p-5 bg-chateau-green-500">
-        <div class="flex items-center">
-          <button>
-            <img src="../public/img/Arrow.png" alt="arrow">
-          </button>
-          <a href="#" class="text-base block text-white ml-5 font-mulish-normal">
-              Data Diri
-          </a>
-        </div>
-        <div class="block">
-          <button class="flex py-3 w-6">
-            <img src="../public/img/edit_icon.png" class="w-6" alt="edit_icon">
-          </button>
-        </div>
-      </nav>
-      <div class="flex bg-white mx-3.85 mt-3.75 justify-between">
-        <a href="#" class="block font-mulish-normal text-12px font-bold">Personal</a>
-        <button class="float-right">
-          <img src="../public/img/Arrow2.png" alt="arrow2">
-        </button>
-      </div>
-      <div class="bg-white mx-3.85 mt-3.75 overflow-y-hidden">
+  <nav class="flex items-center justify-between p-5 bg-chateau-green-500">
+    <div class="flex items-center">
+      <button>
+        <img src="../public/img/Arrow.png" alt="arrow">
+      </button>
+      <p href="#" class="text-base block text-white ml-5 font-mulish-normal">
+        Data Diri
+      </p>
+    </div>
+    <div class="block">
+      <button class="flex py-3 w-6">
+        <img src="../public/img/edit_icon.png" class="w-6" alt="edit_icon">
+      </button>
+    </div>
+  </nav>
+  <span class="flex bg-white mx-3.85 mt-3.75 justify-between">
+    <p href="#" class="block font-mulish-normal text-12px font-semibold">Personal</p>
+    <button class="dropdown-btn">
+      <img src="../public/img/ic_arrow_down.png" alt="ic_arrow_down">
+    </button>
+  </span>
+  <div class="bg-white mx-3.85 mt-1.4 overflow-y-dropdown-contents">
+    <ul class="absolute dropdown-contents collapse">
+      <li>
         <div class="container mx-auto pt-1.4">
-          <a href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Nama Lengkap</a>
-          <a href="#" class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500 .bt-border">Ansi Amalia Lutfi</a>  
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Nama
+            Lengkap</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500 .bt-border">Ansi
+            Amalia Lutfi</p>
         </div>
+      </li>
+      <li>
         <div class="container mx-auto pt-1.4">
-          <a href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Nama Panggilan</a>
-          <a href="#" class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">Ansi</a>  
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Nama
+            Panggilan</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">Ansi</p>
         </div>
+      </li>
+      <li>
         <div class="container mx-auto pt-1.4">
-          <a href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Tempat Lahir</a>
-          <a href="#" class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">Kota Semarang</a>  
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Tempat
+            Lahir</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">Kota
+            Semarang</p>
         </div>
+      </li>
+      <li>
         <div class="container mx-auto pt-1.4">
-          <a href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Tanggal Lahir</a>
-          <a href="#" class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">13 April 1985</a>  
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Tanggal
+            Lahir</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">13
+            April 1985</p>
         </div>
+      </li>
+      <li>
         <div class="container mx-auto pt-1.4">
-          <a href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Jenis Kelamin</a>
-          <a href="#" class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">Perempuan</a>  
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Jenis
+            Kelamin</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">Perempuan</p>
         </div>
+      </li>
+      <li>
         <div class="container mx-auto pt-1.4">
-          <a href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Agama</a>
-          <a href="#" class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">Islam</a>  
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Agama</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">Islam</p>
         </div>
+      </li>
+      <li>
         <div class="container mx-auto pt-1.4">
-          <a href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Status Pernikahan</a>
-          <a href="#" class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">Sudah Menikah</a>  
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Status
+            Pernikahan</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">Sudah
+            Menikah</p>
         </div>
+      </li>
+      <li>
         <div class="container mx-auto pt-1.4">
-          <a href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">NIP</a>
-          <a href="#" class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">09.04.935</a>  
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">NIP</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">09.04.935</p>
         </div>
-        <!-- TODO : add logo -->
+      </li>
+      <!-- TODO : add logo -->
+      <li>
         <div class="block container mx-auto pt-1.4">
           <button class="float-right">
             <img src="../public/img/ic_search.png" alt="ic_search">
           </button>
-          <a href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Nomor KK</a>
-          <a href="#" class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">3374025304850002</a>  
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Nomor
+            KK</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">3374025304850002</p>
         </div>
+      </li>
+      <li>
         <div class="block container mx-auto pt-1.4">
           <button class="float-right">
             <img src="../public/img/ic_search.png" alt="ic_search">
           </button>
-          <a href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Nomor KTP</a>
-          <a href="#" class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-white">111111111</a>  
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Nomor
+            KTP</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-white">111111111</p>
         </div>
+      </li>
+      <li>
         <div class="block container mx-auto pt-1.4">
           <button class="float-right">
             <img src="../public/img/ic_search.png" alt="ic_search">
           </button>
-          <a href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Nomor NPWP</a>
-          <a href="#" class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">59.445.782.2-504.000</a>  
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Nomor
+            NPWP</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">59.445.782.2-504.000</p>
         </div>
-        <!-- TODO end -->
+      </li>
+      <!-- TODO end -->
+      <li>
         <div class="container mx-auto pt-1.4">
-          <a href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">No. Kartu BPJS Kesehatan</a>
-          <a href="#" class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">0001793277819</a>  
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">No. Kartu
+            BPJS Kesehatan</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">0001793277819</p>
         </div>
+      </li>
+      <li>
         <div class="container mx-auto pt-1.4">
-          <a href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">No. Kartu BPJS Ketenagakerjaan</a>
-          <a href="#" class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">10031010548</a>  
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">No. Kartu
+            BPJS Ketenagakerjaan</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">10031010548</p>
         </div>
+      </li>
+      <li>
         <div class="container mx-auto pt-1.4">
-          <a href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">No. SIM A/B1/C*</a>
-          <a href="#" class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-white">10031010548</a>  
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">No. SIM
+            A/B1/C*</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-white">10031010548</p>
         </div>
+      </li>
+      <li>
         <div class="container mx-auto pt-1.4">
-          <a href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Golongan Darah</a>
-          <a href="#" class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">B</a>  
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Golongan
+            Darah</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">B</p>
         </div>
+      </li>
+      <li>
         <div class="container mx-auto pt-1.4">
-          <a href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">No. Rekening</a>
-          <a href="#" class="border-b-0.5 border-alto-500 block mb-3.75 font-mulish-normal font-semibold text-14px text-fuscous-gray-500">220354471</a>  
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">No. Rekam
+            Medik</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block font-mulish-normal font-semibold text-14px text-fuscous-gray-500">1143093</p>
         </div>
+      </li>
+    </ul>
+
+    <span class="flex bg-white mr-auto mt-3.75 justify-between">
+      <p href="#" class="block font-mulish-normal text-12px font-semibold">Kontak</p>
+      <button class="dropdown-btn">
+        <img src="../public/img/ic_arrow_down.png" alt="ic_arrow_down">
+      </button>
+    </span>
+    <ul class="absolute dropdown-contents collapse">
+      <li>
         <div class="container mx-auto pt-1.4">
-          <a href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">No. Rekam Medik</a>
-          <a href="#" class="border-b-0.5 border-alto-500 block font-mulish-normal font-semibold text-14px text-fuscous-gray-500">1143093</a>  
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">No.
+            Telepon</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block font-mulish-normal font-semibold text-14px text-fuscous-gray-500">024-3514374</p>
         </div>
-      </div>
-      <div class="flex bg-white mx-3.85 mt-3.75 justify-between">
-        <a href="#" class="block font-mulish-normal text-12px font-bold">Personal</a>
-        <button class="float-right">
-          <img src="../public/img/Arrow2.png" alt="arrow2">
-        </button>
-      </div>
+      </li>
+      <li>
+        <div class="container mx-auto pt-1.4">
+          <p href="#"
+            class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Provinsi</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block font-mulish-normal font-semibold text-14px text-fuscous-gray-500">Jawa
+            Tengah</p>
+        </div>
+      </li>
+      <li>
+        <div class="container mx-auto pt-1.4">
+          <p href="#"
+            class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Kota/Kabupaten</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block font-mulish-normal font-semibold text-14px text-fuscous-gray-500">Kota
+            Semarang</p>
+        </div>
+      </li>
+      <li>
+        <div class="container mx-auto pt-1.4">
+          <p href="#"
+            class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Kelurahan</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block font-mulish-normal font-semibold text-14px text-fuscous-gray-500">Candisari</p>
+        </div>
+      </li>
+      <li>
+        <div class="container mx-auto pt-1.4">
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Alamat
+            Lengkap</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block font-mulish-normal font-semibold text-14px text-fuscous-gray-500">Jl.
+            Singotoro 6 A RT 2/4 Jomblang Candisari</p>
+        </div>
+      </li>
+      <li>
+        <div class="container mx-auto pt-1.4">
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Kode
+            Pos</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block font-mulish-normal font-semibold text-14px text-fuscous-gray-500">50256</p>
+        </div>
+      </li>
+    </ul>
+
+    <span class="flex bg-white mr-auto mt-3.75 justify-between">
+      <p href="#" class="block font-mulish-normal text-12px font-semibold">Pendidikan</p>
+      <p href="#" class="font-mulish-normal text-12px opacity-50">(2)</p>
+      <button class="dropdown-btn">
+        <img src="../public/img/ic_arrow_down.png" alt="ic_arrow_down">
+      </button>
+    </span>
+    <ul class="absolute dropdown-contents collapse">
+      <li>
+        <div class="flex space-x-4 bg-white mr-auto mt-3.75 justify-between border-b-0.5 border-alto-500">
+          <button class="float-left w-9.5">
+            <img src="../public/img/ic_pendidikan.png" alt="ic_pendidikan">
+          </button>
+          <div class="container mx-auto pt-1.4">
+            <p href="#" class="block font-mulish-normal text-12px font-semibold text-fuscous-gray-500 mt-4.5">Strata-1
+              (S1)</p>
+            <p href="#" class="block font-mulish-normal text-11px font-normal text-fuscous-gray-500 mb-4.75">Tahun
+              2008</p>
+          </div>
+          <button class="float-right">
+            <img src="../public/img/ic_arrow_green.png" alt="ic_arrow_green" class="mr-7.5">
+          </button>
+        </div>
+      </li>
+      <li>
+        <div class="flex space-x-4 bg-white mr-auto mt-3.75 justify-between border-b-0.5 border-alto-500">
+          <button class="float-left w-9.5">
+            <img src="../public/img/ic_pendidikan.png" alt="ic_pendidikan">
+          </button>
+          <div class="container mx-auto pt-1.4">
+            <p href="#" class="block font-mulish-normal text-12px font-semibold text-fuscous-gray-500 mt-4.5">SMA</p>
+            <p href="#" class="block font-mulish-normal text-11px font-normal text-fuscous-gray-500 mb-4.75">Tahun
+              2003</p>
+          </div>
+          <button class="float-right">
+            <img src="../public/img/ic_arrow_green.png" alt="ic_arrow_green" class="mr-7.5">
+          </button>
+        </div>
+      </li>
+    </ul>
+    <span class="flex bg-white mr-auto mt-3.75 justify-between">
+      <p href="#" class="block font-mulish-normal text-12px font-semibold">Data Perkiraan Pensiun</p>
+      <button class="dropdown-btn">
+        <img src="../public/img/ic_arrow_down.png" alt="ic_arrow_down">
+      </button>
+    </span>
+    <ul class="absolute dropdown-contents collapse">
+      <li>
+        <div class="container mx-auto pt-1.4">
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Usia</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block font-mulish-normal font-semibold text-14px text-fuscous-gray-500">60
+            Tahun 4 Bulan 30 Hari</p>
+        </div>
+      </li>
+      <li>
+        <div class="container mx-auto pt-1.4">
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Tanngal
+            Pensiun</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block font-mulish-normal font-semibold text-14px text-fuscous-gray-500">2045-09-12</p>
+        </div>
+      </li>
+      <li>
+        <div class="container mx-auto pt-1.4 pb-5.5">
+          <p href="#" class="block mt-3.75 mb-1.4 font-mulish-normal font-normal text-12px text-gunsmoke-500">Sisa Masa
+            Kerja</p>
+          <p href="#"
+            class="border-b-0.5 border-alto-500 block font-mulish-normal font-semibold text-14px text-fuscous-gray-500">24
+            Tahun 2 Bulan 27 Hari</p>
+        </div>
+      </li>
+    </ul>
+  </div>
 </body>
 </html>

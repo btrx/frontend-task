@@ -3,3 +3,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dropdown-btn {
+    float: right;
+}
+
+.dropdown-btn.open {
+    font-weight: 600;
+}
+
+.dropdown-contents {
+    transition: height 300ms ease;
+}
+
+.dropdown-contents.collapse{
+    display: none;
+}
+
+.dropdown-contents.collapsing {
+    height: 0;
+    overflow: hidden;
+}
+
+.dropdown-contents.open {
+    display: block;
+}
