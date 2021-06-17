@@ -3,5 +3,5 @@ deploy_staging:
   script:
     - echo "Deploy to staging server"
   environment:
-    name: staging
-    url: https://staging.example.com
+    name: frontend-task
+    url: https://frontend-task.example.com
